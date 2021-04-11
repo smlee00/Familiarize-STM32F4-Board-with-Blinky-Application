@@ -22,7 +22,7 @@ alt="Project Milestone 1" width="240" height="180" border="10" /></a>
 * **HAL_Init();** //Reset of all peripherals, Initializes the Flash interface and the Systick.
 * **SystemClock_Config();** //called the SystemClock function to configure the system clock
 * **MX_GPIO_Init(); MX_USART2_UART_Init();** //Initialize all configured peripherals
-* **HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);** //oggle the LED
+* **HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);** //Toggle the LED
 * **HAL_Delay(500);** // Delay
 * *500ms* is used to make the LED blink every 1 second
 * The code is pushed to the board.
